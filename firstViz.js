@@ -8,3 +8,10 @@ var svg = d3.select("#viz")
             .attr("height", height)
             .style("width", width)
             .style("height", height)
+
+svg.append("circle")
+.attr("cx", 50)
+.attr("cy", 50)
+.attr("r", 40)
+.attr("fill", "lavender")
+
