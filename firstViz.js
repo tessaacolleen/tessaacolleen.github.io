@@ -1,4 +1,4 @@
-console.log("Hello!")
+console.log("Hello")
 
 let width = 970
 let height = 700
