@@ -15,3 +15,11 @@ svg.append("circle")
 .attr("r", 40)
 .attr("fill", "lavender")
 
+svg.append("rect")
+.attr("x", 120)
+.attr("y", 10)
+.attr("width", 200)
+.attr("height", 80)
+.attr("fill", "lightblue")
+
+
