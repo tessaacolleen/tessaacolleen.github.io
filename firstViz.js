@@ -1,6 +1,6 @@
 console.log("Hello")
 
-data = [30, 70]
+data = [40, 70]
 
 let width = 970
 let height = 700
@@ -25,10 +25,11 @@ svg.append("rect")
 .attr("fill", "lightblue")
 
 svg.append("rect")
-.attr("cx", 400)
-.attr("cy", 200)
-.attr("r", 50)
-.attr("fill", "green")
+.attr("x", 400)
+.attr("y", 200)
+.attr("width", 50)
+.attr("height", 100)
+.attr("fill", "lightgreen")
 
 all = svg.selectAll()
 .data(data)
